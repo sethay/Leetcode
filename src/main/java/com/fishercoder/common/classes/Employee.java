@@ -20,7 +20,6 @@ public class Employee {
     public Employee(int id, int importance, List<Integer> subordinates) {
         this.id = id;
         this.importance = importance;
-
         this.subordinates = subordinates;
     }
 }
